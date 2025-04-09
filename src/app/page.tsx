@@ -1,3 +1,6 @@
+
+
+import { Carousel } from "@/components/Carousel";
 import { HeroHome } from "@/components/HeroHome";
 import { Navbar } from "@/components/Navbar";
 
@@ -8,6 +11,7 @@ export default function Home() {
 
       <Navbar />
       <HeroHome />
+      <Carousel />
 
     </div>
   );

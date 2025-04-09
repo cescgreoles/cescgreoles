@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Cesc Greoles",
   description: "Personal Web de Cesc Greoles",
+  icons: {
+    icon: "/logo.png",    
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
