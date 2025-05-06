@@ -3,16 +3,15 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
-    <nav className='flex flex-row justify-between items-center  text-[#D9D9D9] px-12 py-[40px] '>
-        <div className='flex items-center justify-center'>
-            <h1 className='uppercase'>Cesc Greoles</h1>
-        </div>
-        <div className='w-3/4 border border-[#464646] rounded-[60px] flex items-center justify-between py-4 px-16'>
-            <span className='text-[16px] font-[500] text-[#838383]'><Link href="/aboutMe">Sobre Mi</Link></span>
-            <span className='text-[16px] font-[500] text-[#838383]'><Link href="/projects">Proyectos</Link></span>
-            <span className='text-[16px] font-[500] text-[#838383]'><Link href="/contact">Contacto</Link></span>
-            
-        </div>
-    </nav>
+
+    <div className='px-12 fixed w-full top-0 left-0 z-50 '>
+      <div className='my-5 w-full bg-[#1C1C1C] border-[0.5px] border-whitesmoke rounded-[60px] flex items-center justify-between py-4 px-24'>
+        <span className='text-[24px] italic font-[500] text-[#838383] uppercase hover:text-white'><Link href="/aboutMe">Sobre Mi</Link></span>
+        <h1 className='italic uppercase'>Cesc Greoles</h1>
+        <span className='text-[24px] italic font-[500] text-[#838383] uppercase hover:text-white'><Link href="/projects">Proyectos</Link></span>
+      </div>
+    </div>
+
+
   )
 }

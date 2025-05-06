@@ -3,6 +3,8 @@
 import { Carousel } from "@/components/Carousel";
 import { HeroHome } from "@/components/HeroHome";
 import { Navbar } from "@/components/Navbar";
+import { Skills } from "@/components/Skills";
+import { Work } from "@/components/Work";
 
 
 export default function Home() {
@@ -12,6 +14,11 @@ export default function Home() {
       <Navbar />
       <HeroHome />
       <Carousel />
+      <Skills />
+      <Work />
+      
+    
+      
 
     </div>
   );
