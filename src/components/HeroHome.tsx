@@ -43,7 +43,7 @@ export const HeroHome = () => {
                         <SlSocialLinkedin size={35} />
                         <span className="text-[12px] italic">Linkedin</span>
                     </Link>
-                    <Link href="" className='flex flex-row justify-center items-center gap-4 border border-[#464646] rounded-full py-4 px-12 hover:bg-[#464646] hover:text-white transition-all duration-300'>
+                    <Link href="mailto:cesc.greoles@gmail.com" className='flex flex-row justify-center items-center gap-4 border border-[#464646] rounded-full py-4 px-12 hover:bg-[#464646] hover:text-white transition-all duration-300'>
                         <MdOutlineMail size={35} />
                         <span className="text-[12px] italic">Mail</span>
                     </Link>

@@ -83,7 +83,7 @@ export const experience = {
     es: [
       {
         name: "Imagina Group",
-        date: "01/2025 - Actualidad",
+        date: "11/2024 - 05/2025",
         where: "València y Barcelona",
         description:
           "Desarrollo de páginas web responsive en Next JS y Tailwind CSS. Uso de Figma para el diseño y Hygraph para la data. Uso de estructuras dinámicas y componentes reutilizables.",
@@ -127,7 +127,7 @@ export const experience = {
     en: [],
   }
 
-  export const skillsList = {
+export const skillsList = {
     lenguajes: [
       "JavaScript",
       "TypeScript",

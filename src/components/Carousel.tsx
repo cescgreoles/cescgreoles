@@ -52,7 +52,7 @@ export function Carousel() {
     };
 
     slider.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll(); // trigger once on mount
+    handleScroll();
 
     return () => slider.removeEventListener("scroll", handleScroll);
   }, []);
@@ -60,7 +60,7 @@ export function Carousel() {
   return (
     <>
      <div className="relative w-full">
-      {/* Navigation Buttons */}
+     
       <div className="absolute px-12 top-1/2 left-2 -translate-y-1/2 z-10">
         <button
           type="button"
