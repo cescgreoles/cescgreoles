@@ -1,18 +1,16 @@
 
-import Link from 'next/link'
+
 import React from 'react'
-import { FaGithub } from 'react-icons/fa';
-// import { GoArrowRight } from "react-icons/go";
-import { MdOutlineMail } from 'react-icons/md';
-import { SlSocialLinkedin } from 'react-icons/sl';
+import Icons from './Icons'
+
 
 export const HeroHome = () => {
     return (
         <>
-            <div className="flex flex-col w-full px-12 pt-32 pb-10">
+            <div className="flex flex-col w-full px-6 pt-42 md:pt-36 lg:pt-32 pb-10">
                 <div className='flex flex-row-reverse w-full gap-5  items-center justify-center'>
                     <div className='flex flex-col gap-5 text-center'>
-                        <div className='flex flex-row gap-5 items-center justify-center'>
+                        <div className='flex flex-col md:flex-row gap-2 md:gap-5 items-center justify-center text-[35px]'>
                             <h2 style={{ fontFamily: 'Orbitron, sans-serif' }}>Front-End Developer</h2>
                             <h2 style={{ fontFamily: 'Playfair Display, serif' }}>Marketing y comunicación digital</h2>
                             <h2 style={{ fontFamily: 'Pacifico, cursive' }}>Web specialist</h2>
@@ -34,22 +32,9 @@ export const HeroHome = () => {
                     </Link> */}
                 </div>
 
-                <div className='flex flex-row justify-evenly items-center w-full px-12 py-10'>
-                    <Link href="" className='flex flex-row justify-center items-center gap-4 border border-[#464646] rounded-full py-4 px-12 hover:bg-[#464646] hover:text-white transition-all duration-300'>
-                        <FaGithub size={35} />
-                        <span className="text-[12px] italic">GitHub</span>
-                    </Link>
-                    <Link href="" className='flex flex-row justify-center items-center gap-4 border border-[#464646] rounded-full py-4 px-12 hover:bg-[#464646] hover:text-white transition-all duration-300'>
-                        <SlSocialLinkedin size={35} />
-                        <span className="text-[12px] italic">Linkedin</span>
-                    </Link>
-                    <Link href="mailto:cesc.greoles@gmail.com" className='flex flex-row justify-center items-center gap-4 border border-[#464646] rounded-full py-4 px-12 hover:bg-[#464646] hover:text-white transition-all duration-300'>
-                        <MdOutlineMail size={35} />
-                        <span className="text-[12px] italic">Mail</span>
-                    </Link>
-                </div>
-            </div>
+                <Icons />
 
+            </div>
         </>
 
 

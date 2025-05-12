@@ -61,7 +61,7 @@ export function Carousel() {
     <>
      <div className="relative w-full">
      
-      <div className="absolute px-12 top-1/2 left-2 -translate-y-1/2 z-10">
+      <div className="hidden md:absolute md:px-12 md:top-1/2 md:left-2 md:-translate-y-1/2 md:z-10">
         <button
           type="button"
           onClick={scrollPrev}
@@ -70,7 +70,7 @@ export function Carousel() {
           <GoArrowLeft size={32} />
         </button>
       </div>
-      <div className="absolute px-12 top-1/2 right-2 -translate-y-1/2 z-10">
+      <div className="hidden md:absolute md:px-12 md:top-1/2 md:right-2 md:-translate-y-1/2 md:z-10">
         <button
           type="button"
           onClick={scrollNext}
@@ -90,7 +90,7 @@ export function Carousel() {
         {portfolioItems.map((item, index) => (
           <div
             key={index}
-            className={`w-[700px] lg:min-w-[33%] flex-shrink-0 h-[300px] rounded-xl bg-cover bg-center text-white flex justify-end items-end snap-center transition-all duration-500 ${
+            className={`w-[350px] md:w-[700px] flex-shrink-0 h-[300px] rounded-xl bg-cover bg-center text-white flex justify-end items-end snap-center transition-all duration-500 ${
               index === visibleIndex
                 ? "scale-100 blur-0 opacity-100"
                 : "scale-90 blur-sm opacity-60"
