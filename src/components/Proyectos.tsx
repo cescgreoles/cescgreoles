@@ -4,7 +4,7 @@ import { portfolioItems } from '@/utils/cv'
 
 export const Proyectos = () => {
     return (
-        <div className='px-12 mt-42 md:mt-35  text-white'>
+        <div className='px-12 text-white'>
             <div
                 className="flex flex-col gap-10 mt-10 mb-5"
             >
@@ -28,12 +28,13 @@ export const Proyectos = () => {
 
                             <div
                                 key={`${index}-desktop`}
-                                className="hidden md:flex w-full md:w-[60%] h-[500px] bg-cover bg-center rounded-lg shadow-md border border-[#464646] flex-col justify-center items-center gap-4 p-6"
+                                className="hidden md:flex w-full md:w-[50%] bg-cover bg-center rounded-lg shadow-md border border-[#464646] flex-col justify-center items-center gap-4 p-6 aspect-[16/9]"
                                 style={{
                                     backgroundImage: `url(${item.img[0].src})`,
-                                    aspectRatio: '16 / 9',
                                 }}
                             ></div>
+
+
 
 
                             {item.img[1] && (

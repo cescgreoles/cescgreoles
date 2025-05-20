@@ -7,13 +7,13 @@ import Icons from './Icons'
 export const HeroHome = () => {
     return (
         <>
-            <div className="flex flex-col w-full px-6 pt-42 md:pt-36 lg:pt-32 pb-10">
+            <div className="flex flex-col w-full px-6 py-2 md:py-10 pb-10">
                 <div className='flex flex-row-reverse w-full gap-5  items-center justify-center'>
                     <div className='flex flex-col gap-5 text-center'>
                         <div className='flex flex-col md:flex-row gap-2 md:gap-5 items-center justify-center text-[35px]'>
-                            <h2 style={{ fontFamily: 'Orbitron, sans-serif' }}>Front-End Developer</h2>
-                            <h2 style={{ fontFamily: 'Playfair Display, serif' }}>Marketing y comunicación digital</h2>
-                            <h2 style={{ fontFamily: 'Pacifico, cursive' }}>Web specialist</h2>
+                            <h2 >Front-End Developer</h2>
+                            <h2 >Marketing y comunicación digital</h2>
+                            <h2 >Web specialist</h2>
                         </div>
 
                         <span className='p-0 m-0'>

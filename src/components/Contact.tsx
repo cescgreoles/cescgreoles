@@ -4,7 +4,7 @@ import Icons from "./Icons";
 
 export const Contact = () => {
     return (
-        <div className="md:mt-25 lg:mt-25 mt-30 flex flex-col items-center justify-center px-6 sm:px-12 py-12 text-white">
+        <div className="flex flex-col items-center justify-center px-6 sm:px-12 py-12 text-white">
             <div className="relative flex w-full max-w-5xl flex-col md:flex-row items-center gap-8 bg-transparent border-white border-[0.5px] rounded-2xl p-8 shadow-lg backdrop-blur-md">
                 
                
